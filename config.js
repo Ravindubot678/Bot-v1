@@ -51,11 +51,11 @@ DELETE_LINK: process.env.DELETE_LINK || "true",
 // make anti link true,false for groups 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
-AUTO_VOICE: process.env.AUTO_VOICE || "false",
+AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
