@@ -88,9 +88,9 @@ jobs:
 
 🔒 This bot is not affiliated with WhatsApp Inc. Use at your own risk.
 
-🔒 Misuse can lead to WhatsApp account bans.
+🔒 Misuse can lead to WhatsApp account band.
 
-🔒 The developer is not responsible for bans or misuse.
+🔒 The developer is not responsible for band or misuse.
 
 
 ---
