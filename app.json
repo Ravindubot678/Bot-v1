@@ -1,8 +1,8 @@
 {
-  "name": "TOHID_MD",
-  "description": "Javascript WhatsApp bot made by TOHID KHAN",
-  "logo": "https://i.ibb.co/4ZSYvPTq/lordali.jpg",
-  "keywords": ["TOHID_MD"],
+  "name": "RAVINDU_MD",
+  "description": "Javascript WhatsApp bot made by Ravindu Akash",
+  "logo": "https://i.ibb.co/B1W44dT/2089.jpg",
+  "keywords": ["RAVINDU_MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "𝕄ℝ 𝕋𝕆ℍ𝕀𝔻"
+      "value": "MR RAVINDU"
     }, 
       
     "PREFIX": {
@@ -79,21 +79,21 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS JUST NOW TOHID_MD*"
+      "value": "*SEEN YOUR STATUS JUST NOW RAVINDU_MD*"
    
      }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "TOHID_MD"
+      "value": "RAVINDU_MD"
 
       }, 
     
     "ALIVE_IMG": {
       "description": "put here the bot Menu url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://i.ibb.co/4ZSYvPTq/lordali.jpg" 
+      "value": "https://i.ibb.co/B1W44dT/2089.jpg" 
       },
 
     "DELETE_LINK": {
