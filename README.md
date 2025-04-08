@@ -6,9 +6,9 @@
 > **`WELCOME TO RAVINDU-MD
 ---
 
-```
-RAVINDU-MD BY Ravindu Akash 💗
-```
+
+RAVINDU-MD BY RAVINDU AKASH💗
+
 
 --- 
 
@@ -18,12 +18,12 @@ RAVINDU-MD BY Ravindu Akash 💗
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/Ravindubot678/Bot-v1/fork"><img title="RAVINDU-MD" src="https://img.shields.io/badge/FORK-KHAN MD-h?color=green&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/Ravindubot678/Bot-v1/fork"><img title="RAVINDU-MD" src="https://img.shields.io/badge/FORK-RAVINDU MD-h?color=green&style=for-the-badge&logo=stackshare"></a>
 
 > Get Pair Code (Session ID)
 
 
-
+<
 <p align="left">  
 <a href='https://dexter-md.onrender.com/' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-B700FB?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
 </p>  <p align="left">  
@@ -43,15 +43,46 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 >
 
+-----------
 
-> View Workflow Codes
+### <br>   ❖ DEPLOY_WORKFLOWS ❖
+```
+name: Node.js CI
 
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
+jobs:
+  build:
 
-<p align="left">  
-<a href="https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j/1368" target="_blank"><img alt='View Workflow Codes' src='https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=githubactions&logoColor=white'/></a>  
-</p>  
----
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
+```
+
+-----------
 
 ⚠️ Disclaimer
 
@@ -79,4 +110,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 If you face any issues, report them on GitHub or in the WhatsApp community.
 Happy coding! 🚀 
+
+
+<p align="center">© Ravindu 2025</p>
 
